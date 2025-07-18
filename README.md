@@ -18,3 +18,11 @@
 </div>
 
 ## Introduction
+
+We present <b>CAP</b>, a large-scale database including over 80k celebrities. Each celebrity in the CAP has three associated images along with their gender, birth year, occupation, and main achievements.
+
+Two examples from CAP:
+
+<div align="center">
+<img src='./cap.png' width='40%'>
+</div>
