@@ -28,7 +28,7 @@ Two examples from CAP:
 </div>
 
 We provide the Python script `import_cap.py` that automatically integrates CAP information into your custom dataset by identifying all public celebrities mentioned in the textual content of each entry and incorporating their corresponding information.
-## Quickly start
+## Quick start
 
 ### 🔧Format Requirements
 
@@ -54,17 +54,46 @@ We provide the Python script `import_cap.py` that automatically integrates CAP i
 ]
 ```
 
-### Download CAP
+### ⏬ Download CAP
 
 Click here to download CAP, which includes the folder `people_imgs` and the json file `cap_texts.json`.
 
-### 🚀Run script
+### 🚀 Run script
 
+Modify and run:
 
 ```
-python your_script.py \
+python import_cap.py \
   --path_A "/path/to/your/dataset.json" \
   --path_B "/path/to/cap_texts.json" \
   --folder_path "/path/to/people_imgs" \
   --output_path "/path/to/output.json"
 ```
+
+📄 Example after running
+
+```json
+[
+  {
+    "id": "001",
+    "text": "Julian Assange leaving court after his application for bail Journalists tweeted updates while the hearing was in progress",
+    "other_info": "...",
+    "cap_texts": {"Julian Assange": "Gender: Male, Occupation: Journalist, Birth year: 1971, Main achievement: Founder of WikiLeaks."},
+    "cap_images": {"Julian Assange": "people_imgs/Julian Assange"},
+     "..."
+  },
+  {
+    "id": "002",
+    "text": "Little Mix and mentor Tommy Gunn were nt expecting to win The X Factor",
+    "tags": ["example", "test"],
+    "cap_texts": {"Little Mix": "Gender: Female, Occupation: Singers, Birth year: NONE, Main achievement: British girl group formed in 2011."},
+    "cap_images": {"Little Mix": "people_imgs/Little Mix"},
+    "..."
+  }
+]
+```
+
+## 🤗🤗🤗 Citation
+
+If you find this work useful for your research, please kindly cite our paper:
+
