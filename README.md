@@ -79,7 +79,7 @@ python import_cap.py \
     "text": "Julian Assange leaving court after his application for bail Journalists tweeted updates while the hearing was in progress",
     "other_info": "...",
     "cap_texts": {"Julian Assange": "Gender: Male, Occupation: Journalist, Birth year: 1971, Main achievement: Founder of WikiLeaks."},
-    "cap_images": {"Julian Assange": "people_imgs/Julian Assange"},
+    "cap_images": {"Julian Assange": ".../people_imgs/Julian Assange"},
      "..."
   },
   {
@@ -87,7 +87,7 @@ python import_cap.py \
     "text": "Little Mix and mentor Tommy Gunn were nt expecting to win The X Factor",
     "tags": ["example", "test"],
     "cap_texts": {"Little Mix": "Gender: Female, Occupation: Singers, Birth year: NONE, Main achievement: British girl group formed in 2011."},
-    "cap_images": {"Little Mix": "people_imgs/Little Mix"},
+    "cap_images": {"Little Mix": ".../people_imgs/Little Mix"},
     "..."
   }
 ]
