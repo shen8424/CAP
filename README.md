@@ -56,7 +56,7 @@ We provide the Python script `import_cap.py` that automatically integrates CAP i
 
 ### ⏬ Download CAP
 
-For the convenience of downloading and usage, we provide two download options for CAP: Hugging Face and Baidu Pan, which include the folder `people_imgs` and the json file `cap_texts.json`.  [CAP HF](https://huggingface.co/datasets/SJJ0854/CAP) | [CAP Baidu Pan]()
+For the convenience of downloading and usage, we provide two download options for CAP: Hugging Face and Baidu Pan, which include folders `people_imgs1`, `people_imgs2` and the json file `cap_texts.json`. Please move all data from the two folders ( `people_imgs1` and `people_imgs2` ) into the `people_imgs` folder.  [CAP HF](https://huggingface.co/datasets/SJJ0854/CAP) | [CAP Baidu Pan]()
 
 ### 🚀 Run script
 
