@@ -17,6 +17,13 @@
 </div>
 </div>
 
+<h4 align="center">
+  <a href="https://arxiv.org/abs/2509.12653" target='_blank'>[ACM MM Paper]</a> |
+  <a href="https://huggingface.co/datasets/SJJ0854/SAMM" target='_blank'>[SAMM HF<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/88b9b5c7-132e-4589-aedf-4e3ccd15732c" />
+]</a> |
+  <a href="https://huggingface.co/datasets/SJJ0854/CAP" target='_blank'>[CAP HF]</a>
+</h4>
+
 ## Introduction
 
 We present <b>CAP</b>, a large-scale database including over 80k celebrities. Each celebrity in the CAP has three associated images along with their gender, birth year, occupation, and main achievements.
