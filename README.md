@@ -103,4 +103,15 @@ python import_cap.py \
 ## 🤗🤗🤗 Citation
 
 If you find this work useful for your research, please kindly cite our paper:
+```
+@misc{shen2025artificialmisalignmentdetectinggrounding,
+      title={Beyond Artificial Misalignment: Detecting and Grounding Semantic-Coordinated Multimodal Manipulations}, 
+      author={Jinjie Shen and Yaxiong Wang and Lechao Cheng and Nan Pu and Zhun Zhong},
+      year={2025},
+      eprint={2509.12653},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.12653}, 
+}
+```
 
